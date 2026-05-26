@@ -15,6 +15,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: navdeepmm/nodejs-project:latest
+        # Update this line to match your Jenkins IMAGE_NAME perfectly
+        image: navdeepmm/node-project:latest 
         ports:
         - containerPort: 3000
