@@ -7,7 +7,7 @@ app.use(express.json());
 
 // A simple GET route
 app.get('/', (req, res) => {
-  res.send('Hello World! The second server is running.');
+  res.send('Hello World! The third server is running.');
 });
 
 // A sample API endpoint
